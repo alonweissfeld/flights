@@ -26,7 +26,7 @@ app.post('/upload', upload.array('files'), function (req, res) {
     var results = {};
 
     if (req.files.length < 2) {
-        res.send('Choose files.')
+        res.send('Not enough files were chosen!')
     }
 
     var files = req.files;
