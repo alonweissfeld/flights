@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <body>
+            <% Object.keys(data).forEach(function (key) { %>
+                  <%= key %>:
+                  <%= data[key] %>
+                  <br />
+            <% }); %>
+    </body>
+</html>

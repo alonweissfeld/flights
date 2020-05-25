@@ -1,0 +1,6 @@
+.DS_Store
+
+# Related csv data files
+/data
+
+/node_modules
